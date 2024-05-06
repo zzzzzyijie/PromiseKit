@@ -299,4 +299,6 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '8.0'
     ss.watchos.deployment_target = '2.0'
   end
+
+  s.resource_bundles = {'PromiseKit' => ['Source/PrivacyInfo.xcprivacy']}
 end
